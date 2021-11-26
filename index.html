@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Start Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- End Fonts Google -->
+    <!-- Start Style file -->
+    <link rel="stylesheet" href="CSS/Vendor/normalize.css">
+    <link rel="stylesheet" href="CSS/Calculator_Style.css">
+
+    <title>Calculator App Native</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <ion-icon class="logoICO" name="calculator"></ion-icon>
+                <h2>Calculator</h2>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="main_calc_body_container">
+                <label class="Display"></label>
+                <div class="main_buttons_container">
+                    <ul class="buttons">
+                        <li data-persent="%">%</li>
+                        <li data-back="back"><ion-icon class="backspace" name="backspace"></ion-icon></li>
+                        <li data-clear="C">Clear</li>
+                        <li data-operator="*">X</li>
+                        <li data-num="9">9</li>
+                        <li data-num="8">8</li>
+                        <li data-num="7">7</li>
+                        <li data-operator="/">/</li>
+                        <li data-num="6">6</li>
+                        <li data-num="5">5</li>
+                        <li data-num="4">4</li>
+                        <li data-operator="+">+</li>
+                        <li data-num="3">3</li>
+                        <li data-num="2">2</li>
+                        <li data-num="1">1</li>
+                        <li data-operator="-">-</li>
+                        <li data-equals="=">=</li>
+                        <li data-num="0">0</li>
+                        <li data-num=".">.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="JS/Calculator_Script.js"></script>
+</body>
+</html>
